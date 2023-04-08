@@ -98,7 +98,7 @@ p {
   height: 100vh;
   border: 1px none #000;
   border-radius: 0px;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/640450634b57268a0089c679_Untitled-1.jpg");
+  background-image: url("/assets/Untitled-1.jpg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@ p {
   width: 100vw;
   border-style: none;
   border-radius: 0px;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/64018efb13b0a5c15ae9d48c_sc-title-bg.png");
+  background-image: url("/assets/sc-title-bg.png");
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -282,18 +282,18 @@ p {
   height: 4vw;
   padding-left: 19px;
   background-color: transparent;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa356fb9bb102986f4e596_icons8-instagram-100.png");
+  background-image: url("/assets/icons8-instagram-100.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .social-button.whatsapp-button {
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa356f4e9a8caaf06b01e1_icons8-whatsapp-100.png");
+  background-image: url("/assets/icons8-whatsapp-100.png");
 }
 
 .social-button.telegram-button {
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa3570a506cae7781cdc11_icons8-ringer-volume-100.png");
+  background-image: url("/assets/icons8-ringer-volume-100.png");
 }
 
 .social-button.contact-insta {
@@ -301,17 +301,17 @@ p {
 }
 
 .social-button.contact-whatsapp {
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa356f4e9a8caaf06b01e1_icons8-whatsapp-100.png");
+  background-image: url("/assets/icons8-whatsapp-100.png");
 }
 
 .social-button.contact-phone {
   padding-left: 5vw;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa3570a506cae7781cdc11_icons8-ringer-volume-100.png");
+  background-image: url("/assets/icons8-ringer-volume-100.png");
 }
 
 .social-button.contact-map {
   padding-left: 5vw;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fa35708bb3696ede06145b_icons8-place-marker-100.png");
+  background-image: url("/assets/icons8-place-marker-100.png");
 }
 
 .div-block-2 {
@@ -473,7 +473,7 @@ p {
   height: 30vh;
   padding-right: 2px;
   padding-left: 2px;
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63fc4c0d0e90ea0e3e11627e_sugarcoat-map.png");
+  background-image: url("/assets/sugarcoat-map.png");
   background-position: 0% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -940,7 +940,7 @@ p {
 }
 
 .navigation-link.w--current {
-  background-image: url("https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/6425ad56440efd42a784049a_Icon-Menu-Indicator.svg");
+  background-image: url("/assets/Icon-Menu-Indicator.svg");
   background-position: 50% 100%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1042,6 +1042,7 @@ p {
 
 .heading-5.keratine-div {
   margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 .span-2 {
@@ -1563,7 +1564,7 @@ p {
   }
 
   .nav-bar-font.nav-bar-contact {
-    left: 175px;
+    left: 160px;
     width: 35%;
     padding-right: 0px;
     padding-left: 0px;
@@ -2033,11 +2034,15 @@ p {
   }
 
   .heading-5.overlap-div {
-    margin-bottom: 37px;
+    margin-bottom: 40px;
+  }
+
+  .heading-5.overlap-div.scalp-div {
+    margin-bottom: 80px;
   }
 
   .heading-5.overlap-div.double-overlap {
-    margin-bottom: 69px;
+    margin-bottom: 70px;
   }
 
   .span-2 {
@@ -4024,14 +4029,14 @@ p {
 }
 @font-face {
   font-family: 'Comic gecko';
-  src: url('https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63f2119dad117e86e9d9d16f_Comic-Gecko.ttf') format('truetype');
+  src: url('/fonts/Comic-Gecko.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Calibri';
-  src: url('https://uploads-ssl.webflow.com/63e87f114b7691163f2b30ba/63f211b7393797255198416e_Calibri.ttf') format('truetype');
+  src: url('/fonts/Calibri.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
